@@ -1,0 +1,39 @@
+{
+    "wins": 4,
+    "losses": 1,
+    "assists": 33.8,
+    "kills": 19.0,
+    "deathsByEnemyChamps": 13.8,
+    "totalDamageDealt": 121192.6,
+    "totalDamageDealtToChampions": 63968.6,
+    "totalDamageTaken": 42925.0,
+    "totalMinionsKilled": 58.6,
+    "longestTimeSpentLiving": 161.2,
+    "damageDealtToBuildings": 3078.0,
+    "effectiveHealAndShielding": 0.0,
+    "skillshotsDodged": 70.2,
+    "damageTakenOnTeamPercentage": 0.17892721955439694,
+    "teamDamagePercentage": 0.28593105360305426,
+    "winrate": 0.8,
+    "largestMultiKill": [
+        0,
+        0,
+        1,
+        3,
+        1,
+        0
+    ],
+    "largestKillingSpree": [
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ]
+}
