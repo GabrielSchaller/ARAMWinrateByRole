@@ -1,5 +1,5 @@
 update = function(target){
-  file = fetch('/blob/main/ARAMWinrateByRole/Summaries/Alyna3EUWadcSummary.txt')
+  file = fetch('ARAMWinrateByRole/blob/main/Summaries/Alyna3EUWadcSummary.txt')
   console.log(file)
 }
 
