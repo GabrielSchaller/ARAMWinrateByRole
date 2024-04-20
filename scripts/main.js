@@ -1,7 +1,8 @@
 update = function(target){
-  file = fetch('https://github.com/GabrielSchaller/ARAMWinrateByRole/blob/main/Summaries/Alyna3EUWadcSummary.txt')
+  file = fetch('/Summaries/Alyna3EUWadcSummary.txt')
   console.log(file)
-  target.datasets.data = []
+  file = fetch('Summaries/Alyna3EUWadcSummary.txt')
+  console.log(file)
 }
 
 generate = function(){
