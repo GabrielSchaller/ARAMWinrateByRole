@@ -434,25 +434,25 @@
             },
             "bruiser": {
                 "wins": 119,
-                "losses": 97,
-                "assists": 27.15277777777778,
-                "kills": 12.592592592592593,
-                "deathsByEnemyChamps": 11.925925925925926,
-                "totalDamageDealt": 65512.18518518518,
-                "totalDamageDealtToChampions": 33092.648148148146,
-                "totalDamageTaken": 49328.916666666664,
-                "totalMinionsKilled": 33.63425925925926,
-                "longestTimeSpentLiving": 168.24537037037038,
-                "damageDealtToBuildings": 1534.361111111111,
-                "effectiveHealAndShielding": 216.26587284935846,
-                "skillshotsDodged": 86.87037037037037,
-                "damageTakenOnTeamPercentage": 0.2813151810770332,
-                "teamDamagePercentage": 0.20827286656692684,
-                "winrate": 0.5509259259259259,
+                "losses": 98,
+                "assists": 27.1889400921659,
+                "kills": 12.599078341013826,
+                "deathsByEnemyChamps": 11.953917050691244,
+                "totalDamageDealt": 65478.56221198157,
+                "totalDamageDealtToChampions": 33122.42857142857,
+                "totalDamageTaken": 49420.976958525345,
+                "totalMinionsKilled": 33.585253456221196,
+                "longestTimeSpentLiving": 167.9447004608295,
+                "damageDealtToBuildings": 1531.8663594470047,
+                "effectiveHealAndShielding": 215.26925592378538,
+                "skillshotsDodged": 86.88940092165899,
+                "damageTakenOnTeamPercentage": 0.281488885756576,
+                "teamDamagePercentage": 0.20802542856493902,
+                "winrate": 0.5483870967741935,
                 "largestMultiKill": [
                     1,
                     50,
-                    104,
+                    105,
                     47,
                     12,
                     2
@@ -460,7 +460,7 @@
                 "largestKillingSpree": [
                     20,
                     0,
-                    59,
+                    60,
                     55,
                     41,
                     23,
@@ -1572,7 +1572,7 @@
                 ]
             }
         },
-        "G2 FischbrötchenEUW": {
+        "G2 FischbrÃ¶tchenEUW": {
             "adc": {
                 "wins": 32,
                 "losses": 49,
@@ -3145,7 +3145,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 32,
                 "losses": 49,
                 "assists": 24.444444444444443,
@@ -3576,7 +3576,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 65,
                 "losses": 55,
                 "assists": 25.675,
@@ -3968,7 +3968,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 1,
                 "losses": 4,
                 "assists": 18.8,
@@ -4360,7 +4360,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 5,
                 "losses": 2,
                 "assists": 40.142857142857146,
@@ -4752,7 +4752,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 32,
                 "losses": 16,
                 "assists": 30.479166666666668,
@@ -4990,25 +4990,25 @@
             },
             "PartyBJ000": {
                 "wins": 119,
-                "losses": 97,
-                "assists": 27.15277777777778,
-                "kills": 12.592592592592593,
-                "deathsByEnemyChamps": 11.925925925925926,
-                "totalDamageDealt": 65512.18518518518,
-                "totalDamageDealtToChampions": 33092.648148148146,
-                "totalDamageTaken": 49328.916666666664,
-                "totalMinionsKilled": 33.63425925925926,
-                "longestTimeSpentLiving": 168.24537037037038,
-                "damageDealtToBuildings": 1534.361111111111,
-                "effectiveHealAndShielding": 216.26587284935846,
-                "skillshotsDodged": 86.87037037037037,
-                "damageTakenOnTeamPercentage": 0.2813151810770332,
-                "teamDamagePercentage": 0.20827286656692684,
-                "winrate": 0.5509259259259259,
+                "losses": 98,
+                "assists": 27.1889400921659,
+                "kills": 12.599078341013826,
+                "deathsByEnemyChamps": 11.953917050691244,
+                "totalDamageDealt": 65478.56221198157,
+                "totalDamageDealtToChampions": 33122.42857142857,
+                "totalDamageTaken": 49420.976958525345,
+                "totalMinionsKilled": 33.585253456221196,
+                "longestTimeSpentLiving": 167.9447004608295,
+                "damageDealtToBuildings": 1531.8663594470047,
+                "effectiveHealAndShielding": 215.26925592378538,
+                "skillshotsDodged": 86.88940092165899,
+                "damageTakenOnTeamPercentage": 0.281488885756576,
+                "teamDamagePercentage": 0.20802542856493902,
+                "winrate": 0.5483870967741935,
                 "largestMultiKill": [
                     1,
                     50,
-                    104,
+                    105,
                     47,
                     12,
                     2
@@ -5016,7 +5016,7 @@
                 "largestKillingSpree": [
                     20,
                     0,
-                    59,
+                    60,
                     55,
                     41,
                     23,
@@ -5183,7 +5183,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 20,
                 "losses": 24,
                 "assists": 25.15909090909091,
@@ -5614,7 +5614,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃ¶tchenEUW": {
+            "G2 FischbrÃƒÂ¶tchenEUW": {
                 "wins": 4,
                 "losses": 6,
                 "assists": 20.0,
