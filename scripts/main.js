@@ -1,14 +1,15 @@
 update = function(target){
-  file = fetch("./FullSummary.json")
-  console.log(file)
+  console.log("update")
 }
 
 generate = function(){
   var graphs = document.getElementsByClassName("graphs");
   alert(graphs.lenghth)
-  for(var i = 0; i<graphs.length; i++) {
-    update(graphs.item(i))
-  }
+  file = fetch("./FullSummary.json")
+  console.log(file)
+  //for(var i = 0; i<graphs.length; i++) {
+  //  update(graphs.item(i))
+  //}
 }
 
 initialize = function(){
