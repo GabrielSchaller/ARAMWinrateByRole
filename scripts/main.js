@@ -1,4 +1,4 @@
-const request = fetch("./FullSummary.json")
+request = fetch("./FullSummary.json")
 var file = request.json();
 console.log(file)
   
