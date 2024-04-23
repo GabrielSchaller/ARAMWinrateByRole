@@ -1,4 +1,4 @@
-const request = fetch("./FullSummary.json");
+const request = await fetch("./FullSummary.json");
 var file = await request.json();
 console.log(file);
 update = function(target){
