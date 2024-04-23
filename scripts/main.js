@@ -81,7 +81,7 @@ async function initialize(){
       labels: labels,
       datasets: [{
         label: graphcontainer.id,
-        data: [12, 19, 3, 5, 2, 3],
+        data: [0,1,2,3,4,5],
         borderWidth: 1,
         backgroundColor: ["red", "blue", "black", "orange" , "pink", "green", "grey", "purple", "yellow", "chocolate", "aqua"]
       }]
