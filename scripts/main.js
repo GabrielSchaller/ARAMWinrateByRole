@@ -1,6 +1,4 @@
-request = new Request("./FullSummary.json");
-var file = fetch("./FullSummary.json").then((response) => response.json()).value
-console.log(file)
+var file;
   
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
@@ -58,6 +56,13 @@ generate = function(){
   for(var i = 0; i<graphs.length; i++) {
     update(graphs.item(i))
   }
+}
+
+async function ini_initialize(){
+  request = new Request("./FullSummary.json");
+  var file = fetch("./FullSummary.json").then((response) => response.json()).value
+    .then(initialize())
+    .then(console.log(file))
 }
 async function initialize(){
   //const temp = await fetch("./FullSummary.json");
