@@ -1,4 +1,5 @@
 var file;
+  
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
         target.chart.data.datasets[0].data.pop();
@@ -57,9 +58,8 @@ generate = function(){
     update(graphs.item(i))
   }
 }
-async initialize = function(){
-  const request = await fetch("./FullSummary.json");
-  file = await request.json();
+async function initialize(){
+  file = await fetch("./FullSummary.json").json();
   console.log(file);
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
