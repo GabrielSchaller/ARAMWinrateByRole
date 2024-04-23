@@ -49,7 +49,6 @@ update = function(target){
   }else{
     alert("ERROR2");
   }
-  target.chart.data.datasets[0].data.push(0)
   target.chart.update();
 }
 
