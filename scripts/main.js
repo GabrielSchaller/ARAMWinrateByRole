@@ -1,38 +1,83 @@
+var file = fetch("./FullSummary.json")
 update = function(target){
-  console.log("update")
+  while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
+        target.chart.data.datasets[0].data.pop();
+  };
+  if(target.parentNode.id == "roles"){
+    role = document.getElementById("roleSelection").value;
+    for(key in file.roleSummaries){
+      if(key === role){
+        for(player in file.roleSummaries[key]){
+          if (target.id === "games") {
+            target.chart.data.datasets[0].data.push(file.roleSummaries[key][player].wins+file.roleSummaries[key][player].losses)
+            continue;
+          } else if((target.id === "kda")){
+            target.chart.data.datasets[0].data.push((file.roleSummaries[key][player].kills+file.roleSummaries[key][player].assists)/file.roleSummaries[key][player].deathsByEnemyChamps)
+            continue;
+          }
+          for(datapoint in file.roleSummaries[key][player]){
+            if(datapoint === target.id){
+              target.chart.data.datasets[0].data.push(file.roleSummaries[key][player][datapoint])
+            }
+          }
+        }
+      }
+    }
+  }else if(target.parentNode.id == "players"){
+    player = document.getElementById("playerSelection").value;
+    for(key in file.playerSummaries){
+      if(key === player){
+        for(role in file.playerSummaries[key]){
+          if (target.id === "games") {
+            target.chart.data.datasets[0].data.push(file.playerSummaries[key][role].wins+file.playerSummaries[key][role].losses)
+            continue;
+          } else if((target.id === "kda")){
+            target.chart.data.datasets[0].data.push((file.playerSummaries[key][role].kills+file.playerSummaries[key][role].assists)/file.playerSummaries[key][role].deathsByEnemyChamps)
+            continue;
+          }
+          for(datapoint in file.playerSummaries[key][role]){
+            if(datapoint === target.id){
+              target.chart.data.datasets[0].data.push(file.playerSummaries[key][role][datapoint])
+            }
+          }
+        }
+      }
+    }
+  }else{
+    alert("ERROR2");
+  }
+  target.chart.data.datasets[0].data.push(0)
+  target.chart.update();
 }
 
 generate = function(){
+  //console.log(file.playerSummaries.Alyna3EUW.adc.wins)
   var graphs = document.getElementsByClassName("graphs");
-  alert(graphs.lenghth)
-  file = fetch("./FullSummary.json")
-  console.log(file)
-  //for(var i = 0; i<graphs.length; i++) {
-  //  update(graphs.item(i))
-  //}
+  for(var i = 0; i<graphs.length; i++) {
+    update(graphs.item(i))
+  }
 }
-
 initialize = function(){
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
-    const ctx = graphs.item(i);
+    const graphcontainer = graphs.item(i);
     labels = []
     if (graphs.item(i).parentNode.id == "roles"){
-      labels = ["enchanters", "adc", "apc", "assassin", "meleeCarries", "bruiser", "tanks"]
+      labels = ['TheShackledOne', 'PartyBJ', 'Alyna3', 'FNC Gilchrist', 'G0ttlob', 'G2 Brausewasser', 'G2 Fischbrötchen', 'Kellerbier', 'PartyMagier', 'G2 PENGU Nr1', 'Trainer Ludwig']
     } else if (graphs.item(i).parentNode.id == "players") {
-      labels = ["PartyMagier", "PartyBJ", "G2 PENGU Nr1", "FNC Gilchrist", "Alyna3", "G2 Fischbrötchen", "G0ttlob", "G2 Kellerbier", "Trainer Ludwig", "G2 Brausewasser", "TheShackledOne"]
+      labels = ['adc', 'apc', 'assassin', 'enchanter', 'tank', 'bruiser', 'meleeCarries']
     } else {
-      alert("ERROR")
+      alert("ERROR1")
     }
-    new Chart(ctx, {
+    graphcontainer.chart = new Chart(graphcontainer, {
     type: 'bar',
     data: {
       labels: labels,
       datasets: [{
-        label: ctx.id,
+        label: graphcontainer.id,
         data: [12, 19, 3, 5, 2, 3],
         borderWidth: 1,
-        barckgroundColor: ["red", "blue", "orange", "green", "purple", "yellow"]
+        backgroundColor: ["red", "blue", "black", "orange" , "pink", "green", "grey", "purple", "yellow", "chocolate", "aqua"]
       }]
     },
     options: {
@@ -43,6 +88,7 @@ initialize = function(){
       }
     }
   });
+    update(graphcontainer)
   }
 }
       
