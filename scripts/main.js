@@ -1,4 +1,4 @@
-var file fetch("./FullSummary.json").json();
+var file = fetch("./FullSummary.json").json();
 console.log(file)
   
 update = function(target){
