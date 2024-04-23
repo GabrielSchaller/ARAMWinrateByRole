@@ -60,9 +60,13 @@ generate = function(){
 
 async function ini_initialize(){
   request = new Request("./FullSummary.json");
-  var file = fetch("./FullSummary.json").then((response) => response.json()).value
-    .then(initialize())
-    .then(console.log(file))
+  fetch(request)
+    .then(response) => {
+      file = response.json()
+      initialize()
+      console.log(file)
+    }.catch(console.error);
+    console.log(file)
 }
 async function initialize(){
   //const temp = await fetch("./FullSummary.json");
