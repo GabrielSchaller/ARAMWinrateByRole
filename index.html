@@ -3,61 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>ARAM stats</title>
+    <link href="http://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" type="text/css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script src= "scripts/main.js"></script>
   </head>
-  <body onLoad="initialize()" background="images/background.jpg">#nothing yet
-    <h2>sheesh was eine Winrate</h2>
-    <select required name="Role" id="selection">
-      <option value="ADC">ADC</option>
-      <option value="APC">Mage</option>
-      <option value="Enchanter">Enchanter</option>
-      <option value="Assassin">Assassin</option>
+  <body onLoad="initialize()">
+    <h2> 
+      <p float="left">Rolle</p>
+      <p float="right">Spieler</p>
+    </h2>
+    <select required name="Role" id="roleSelection">
+      <option value="adc">ADC</option>
+      <option value="apc">Mage</option>
+      <option value="assassin">Assassin</option>
+      <option value="enchanter">Enchanter</option>
+      <option value="tank">Tank</option>
+      <option value="bruiser">Bruiser</option>
+      <option value="meleeCarries">Melee Carry</option>
     </select>
-    <select required name="Player" id="selection">
-      <option value="Alyna3">Alyna3</option>
-      <option value="PartyBJ">PartyBJ</option>
-      <option value="PartyMagier">PartyMagier</option>
-      <option value="G0ttlob">G0ttlob</option>
+    <select required name="Player" id="playerSelection">
+      <option value="TheShackledOne001">???</option>
+      <option value="PartyBJ000">PartyBJ</option>
+      <option value="Alyna3EUW">Alyna3</option>
+      <option value="FNC GilchristEUW">FNC Gilchrist</option>
+      <option value="G0ttlobEUW">G0ttlob</option>
+      <option value="G2 Brausewasser1302">Brausewasser</option>
+      <option value="G2 FischbrötchenEUW">G2 Fischbrötchen</option>
+      <option value="KellerbierBier">Kellerbier</option>
+      <option value="PartyMagier000">PartyMagier</option>
+      <option value="G2 PENGU Nr1EUW">G2 PENGU Nr1</option>
+      <option value="Trainer LudwigEUW">Trainer Ludwig</option>
     </select>
     <button onclick="generate()"> Generate Graphs</button>
     </div>
-    <div id="roles">
-    	<canvas id="winrate" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="games" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="kills" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="deaths" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="assists" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="kda" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageDealt" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageDealtToChampions" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="teamDamagePercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageTaken" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="damageTakenOnTeamPercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalMinionsKilled" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="longestTimeSpentLiving" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="damageDealtToBuildings" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="effectiveHealAndShielding" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="skillshotsDodged" class="graphs" style="width:100%;max-width:700px"></canvas>
-    </div>
-    <div id="players">
-      <canvas id="winrate" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="games" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="kills" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="deaths" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="assists" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="kda" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageDealt" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageDealtToChampions" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="teamDamagePercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalDamageTaken" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="damageTakenOnTeamPercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="totalMinionsKilled" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="longestTimeSpentLiving" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="damageDealtToBuildings" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="effectiveHealAndShielding" class="graphs" style="width:100%;max-width:700px"></canvas>
-      <canvas id="skillshotsDodged" class="graphs" style="width:100%;max-width:700px"></canvas>
+    <div id=container>
+      <div id="roles">
+    	  <canvas id="winrate" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="games" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="kills" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="deathsByEnemyChamps" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="assists" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="kda" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageDealt" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageDealtToChampions" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="teamDamagePercentage" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageTaken" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="damageTakenOnTeamPercentage" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalMinionsKilled" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="longestTimeSpentLiving" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="damageDealtToBuildings" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="effectiveHealAndShielding" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="skillshotsDodged" chart = "" class="graphs" style="width:100%;max-width:700px"></canvas>
+      </div>
+      <div id="players">
+        <canvas id="winrate" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="games" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="kills" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="deathsByEnemyChamps" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="assists" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="kda" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageDealt" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageDealtToChampions" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="teamDamagePercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalDamageTaken" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="damageTakenOnTeamPercentage" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="totalMinionsKilled" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="longestTimeSpentLiving" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="damageDealtToBuildings" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="effectiveHealAndShielding" class="graphs" style="width:100%;max-width:700px"></canvas>
+        <canvas id="skillshotsDodged" class="graphs" style="width:100%;max-width:700px"></canvas>
+      </div>
     </div>
   </body>
 </html>
