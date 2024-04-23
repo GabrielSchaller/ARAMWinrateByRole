@@ -61,17 +61,15 @@ generate = function(){
 async function ini_initialize(){
   request = new Request("./FullSummary.json");
   fetch(request)
-    .then(response) => {
+    .then((response) => {
       file = response.json()
       initialize()
       console.log(file)
-    }.catch(console.error);
+    })
+    .catch(console.error);
     console.log(file)
 }
 async function initialize(){
-  //const temp = await fetch("./FullSummary.json");
-  //file = temp.json();
-  //console.log(file);
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
     const graphcontainer = graphs.item(i);
