@@ -1,5 +1,5 @@
-request = fetch("./FullSummary.json")
-var file = request.json();
+request = new Request("./FullSummary.json");
+var file = fetch("./FullSummary.json").then((response) => response.json())
 console.log(file)
   
 update = function(target){
