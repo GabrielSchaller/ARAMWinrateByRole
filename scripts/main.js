@@ -1,4 +1,5 @@
 var file = fetch("./FullSummary.json")
+console.log(file)
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
         target.chart.data.datasets[0].data.pop();
