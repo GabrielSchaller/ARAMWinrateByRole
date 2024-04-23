@@ -1,4 +1,5 @@
-var file = fetch("./FullSummary.json").json();
+const request = fetch("./FullSummary.json")
+var file = request.json();
 console.log(file)
   
 update = function(target){
@@ -60,7 +61,8 @@ generate = function(){
   }
 }
 async function initialize(){
-  file = await fetch("./FullSummary.json").json();
+  const temp = await fetch("./FullSummary.json");
+  file = temp.json();
   console.log(file);
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
