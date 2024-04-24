@@ -61,7 +61,7 @@ generate = function(){
   }
 }
 
-ini_initialize = asyn () => {
+const ini_initialize = async () => {
   console.log("Initializing")
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
@@ -96,4 +96,4 @@ ini_initialize = asyn () => {
     await file;
     update(graphcontainer)
   }
-}   
+};
