@@ -57,6 +57,17 @@ generate = function(){
   }
 }
 
+async function ini_initialize(){
+  request = new Request("./FullSummary.json");
+  fetch(request)
+    .then((response) => {
+      file = response.json()
+      initialize()
+      console.log(file.value)
+    })
+    .catch(console.error);
+}
+
 async function initialize(){
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
@@ -90,18 +101,4 @@ async function initialize(){
   });
     update(graphcontainer)
   }
-}
-
-async function ini_initialize(){
-  request = new Request("./FullSummary.json");
-  fetch(request)
-    .then((response) => {
-      file = response.json()
-      initialize()
-      console.log(file.value)
-      console.log("2")
-    })
-    .catch(console.error);
-    console.log(file)
-}
-      
+}   
