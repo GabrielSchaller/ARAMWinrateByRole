@@ -63,6 +63,7 @@ async function ini_initialize(){
     .then((response) => {
       file = response.json()
       initialize()
+      console.log(file)
       console.log(file.value)
     })
     .catch(console.error);
