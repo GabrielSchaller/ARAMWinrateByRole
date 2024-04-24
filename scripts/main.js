@@ -93,7 +93,9 @@ const ini_initialize = async () => {
       }
     }
   });
+    print("finished initializing");
     await file;
+    print(file);
     update(graphcontainer)
   }
 };
