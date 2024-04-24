@@ -61,7 +61,7 @@ async function ini_initialize(){
   request = new Request("./FullSummary.json");
   fetch(request)
     .then((response) => {
-      file = response.json()
+      file = await response.json()
       initialize()
       console.log(file)
       console.log(file.value)
