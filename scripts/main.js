@@ -1,4 +1,7 @@
-var file;
+const file = fetch("./FullSummary.json")
+  .then((response) => response.json())
+  .then((result) => return result;
+});
   
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
@@ -57,19 +60,7 @@ generate = function(){
   }
 }
 
-async function ini_initialize(){
-  request = new Request("./FullSummary.json");
-  fetch(request)
-    .then((response) => {
-      file = await response.json()
-      initialize()
-      console.log(file)
-      console.log(file.value)
-    })
-    .catch(console.error);
-}
-
-async function initialize(){
+ini_initialize = asyn(){
   console.log("Initializing")
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
@@ -101,6 +92,7 @@ async function initialize(){
       }
     }
   });
+    await file;
     update(graphcontainer)
   }
 }   
