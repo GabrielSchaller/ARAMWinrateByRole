@@ -61,7 +61,7 @@ generate = function(){
   }
 }
 
-ini_initialize = asyn(){
+ini_initialize = asyn () => {
   console.log("Initializing")
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
