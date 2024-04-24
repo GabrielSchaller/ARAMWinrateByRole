@@ -94,9 +94,11 @@ const ini_initialize = async () => {
       }
     }
   });
-    console.log("finished initializing");
-    await request.then((a) => {file = a;});
-    console.log(file);
-    update(graphcontainer)
-  }
+ }
+await request.then((a) => {file = a;});
+for(var i = 0; i<graphs.length; i++) {
+  update(graphs.item(i));
+}
+console.log("finished initializing");
+console.log(file);
 };
