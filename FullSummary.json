@@ -118,6 +118,45 @@
                     0
                 ]
             },
+            "enchanter": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
             "tank": {
                 "wins": 1,
                 "losses": 0,
@@ -585,6 +624,45 @@
                     10,
                     4,
                     4,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "assassin": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0
@@ -2240,6 +2318,45 @@
                     0
                 ]
             },
+            "enchanter": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
             "tank": {
                 "wins": 1,
                 "losses": 1,
@@ -3851,6 +3968,45 @@
                     0
                 ]
             },
+            "Alyna3EUW": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
             "FNC GilchristEUW": {
                 "wins": 0,
                 "losses": 1,
@@ -4165,6 +4321,45 @@
             }
         },
         "enchanter": {
+            "TheShackledOne001": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
             "PartyBJ000": {
                 "wins": 12,
                 "losses": 8,
@@ -4430,6 +4625,45 @@
                     9,
                     5,
                     2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "PartyMagier000": {
+                "wins": 0,
+                "losses": 0,
+                "assists": 0,
+                "kills": 0,
+                "deathsByEnemyChamps": 0,
+                "totalDamageDealt": 0,
+                "totalDamageDealtToChampions": 0,
+                "totalDamageTaken": 0,
+                "totalMinionsKilled": 0,
+                "longestTimeSpentLiving": 0,
+                "damageDealtToBuildings": 0,
+                "effectiveHealAndShielding": 0,
+                "skillshotsDodged": 0,
+                "damageTakenOnTeamPercentage": 0,
+                "teamDamagePercentage": 0,
+                "winrate": 0,
+                "largestMultiKill": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "largestKillingSpree": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
