@@ -70,6 +70,7 @@ async function ini_initialize(){
 }
 
 async function initialize(){
+  console.log("Initializing")
   var graphs = document.getElementsByClassName("graphs");
   for(var i = 0; i<graphs.length; i++) {
     const graphcontainer = graphs.item(i);
