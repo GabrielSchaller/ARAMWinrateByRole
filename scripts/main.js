@@ -1,7 +1,8 @@
 const file = fetch("./FullSummary.json")
   .then((response) => response.json())
-  .then((result) => return result;
-});
+  .then((result) => {
+    return result;
+  });
   
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
