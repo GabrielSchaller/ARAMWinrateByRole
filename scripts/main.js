@@ -1,8 +1,9 @@
-const file = fetch("./FullSummary.json")
+const request = fetch("./FullSummary.json")
   .then((response) => response.json())
   .then((result) => {
     return result;
   });
+var file;
   
 update = function(target){
   while(typeof target.chart.data.datasets[0].data[0] != "undefined"){
@@ -94,7 +95,7 @@ const ini_initialize = async () => {
     }
   });
     print("finished initializing");
-    await file;
+    await request.then((a) => {file = a;});
     print(file);
     update(graphcontainer)
   }
