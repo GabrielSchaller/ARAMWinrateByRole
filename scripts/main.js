@@ -69,9 +69,9 @@ const ini_initialize = async () => {
     const graphcontainer = graphs.item(i);
     labels = []
     if (graphs.item(i).parentNode.id == "roles"){
-      labels = ['TheShackledOne', 'PartyBJ', 'Alyna3', 'FNC Gilchrist', 'G0ttlob', 'G2 Brausewasser', 'G2 Fischbrötchen', 'Kellerbier', 'PartyMagier', 'G2 PENGU Nr1', 'Trainer Ludwig']
+      labels = ['TheShackledOne', 'PartyBJ', 'Alyna3', 'FNC Gilchrist', 'G0ttlob', 'G2 Brausewasser', 'G2 Fischbrötchen', 'Kellerbier', 'PartyMagier', 'G2 PENGU Nr1', 'Trainer Ludwig', 'Averages']
     } else if (graphs.item(i).parentNode.id == "players") {
-      labels = ['adc', 'apc', 'assassin', 'enchanter', 'tank', 'bruiser', 'meleeCarries']
+      labels = ['adc', 'apc', 'assassin', 'enchanter', 'tank', 'bruiser', 'meleeCarries', 'averages']
     } else {
       alert("ERROR1")
     }
