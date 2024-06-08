@@ -336,27 +336,27 @@
                 ]
             },
             "apc": {
-                "wins": 35,
+                "wins": 36,
                 "losses": 47,
-                "assists": 26.902439024390244,
-                "kills": 10.707317073170731,
-                "deathsByEnemyChamps": 11.390243902439025,
-                "totalDamageDealt": 65639.68292682926,
-                "totalDamageDealtToChampions": 31505.914634146342,
-                "totalDamageTaken": 32241.560975609755,
-                "totalMinionsKilled": 39.30487804878049,
-                "longestTimeSpentLiving": 186.03658536585365,
-                "damageDealtToBuildings": 1500.0487804878048,
-                "effectiveHealAndShielding": 964.2545605171017,
-                "skillshotsDodged": 66.8780487804878,
-                "damageTakenOnTeamPercentage": 0.1954668341956483,
-                "teamDamagePercentage": 0.20956985219527755,
-                "winrate": 0.4268292682926829,
+                "assists": 26.96385542168675,
+                "kills": 10.72289156626506,
+                "deathsByEnemyChamps": 11.397590361445783,
+                "totalDamageDealt": 65459.98795180723,
+                "totalDamageDealtToChampions": 31545.21686746988,
+                "totalDamageTaken": 32299.78313253012,
+                "totalMinionsKilled": 39.06024096385542,
+                "longestTimeSpentLiving": 186.51807228915663,
+                "damageDealtToBuildings": 1518.9277108433735,
+                "effectiveHealAndShielding": 952.6370356915945,
+                "skillshotsDodged": 68.96385542168674,
+                "damageTakenOnTeamPercentage": 0.196415048594682,
+                "teamDamagePercentage": 0.20992039539692298,
+                "winrate": 0.43373493975903615,
                 "largestMultiKill": [
                     0,
                     18,
                     43,
-                    16,
+                    17,
                     4,
                     1
                 ],
@@ -364,7 +364,7 @@
                     8,
                     0,
                     23,
-                    28,
+                    29,
                     9,
                     9,
                     4,
@@ -570,22 +570,22 @@
                 ]
             },
             "averages": {
-                "winsX": 339,
+                "winsX": 340,
                 "lossesX": 310,
-                "assists": 27.006163328197225,
-                "kills": 11.785824345146379,
-                "deathsByEnemyChamps": 11.651771956856702,
-                "totalDamageDealt": 65631.67642526964,
-                "totalDamageDealtToChampions": 32040.36055469954,
-                "totalDamageTaken": 42692.10015408321,
-                "totalMinionsKilled": 36.335901386748844,
-                "longestTimeSpentLiving": 172.74114021571648,
-                "damageDealtToBuildings": 1701.6348228043144,
-                "effectiveHealAndShielding": 1015.2735336286078,
-                "skillshotsDodged": 78.06163328197226,
-                "damageTakenOnTeamPercentage": 0.25046829797441084,
-                "teamDamagePercentage": 0.20556447758350366,
-                "winrate": 0.522342064714946,
+                "assists": 27.013846153846153,
+                "kills": 11.786153846153846,
+                "deathsByEnemyChamps": 11.652307692307692,
+                "totalDamageDealt": 65608.74307692307,
+                "totalDamageDealtToChampions": 32044.55692307692,
+                "totalDamageTaken": 42683.45692307693,
+                "totalMinionsKilled": 36.30923076923077,
+                "longestTimeSpentLiving": 172.8230769230769,
+                "damageDealtToBuildings": 1703.7353846153846,
+                "effectiveHealAndShielding": 1013.7115743461022,
+                "skillshotsDodged": 78.31076923076922,
+                "damageTakenOnTeamPercentage": 0.25050476002262784,
+                "teamDamagePercentage": 0.20561540136865494,
+                "winrate": 0.5230769230769231,
                 "wins": 0,
                 "losses": 0
             }
@@ -3267,22 +3267,22 @@
                 "losses": 0
             },
             "apc": {
-                "winsX": 752,
+                "winsX": 753,
                 "lossesX": 701,
-                "assists": 27.46111493461803,
-                "kills": 11.005505849965589,
-                "deathsByEnemyChamps": 10.593943565037852,
-                "totalDamageDealt": 80394.90295939436,
-                "totalDamageDealtToChampions": 33951.29525120441,
-                "totalDamageTaken": 27819.7997247075,
-                "totalMinionsKilled": 51.47900894700619,
-                "longestTimeSpentLiving": 205.22367515485203,
-                "damageDealtToBuildings": 1470.3530626290433,
-                "effectiveHealAndShielding": 692.9869809160541,
-                "skillshotsDodged": 52.32415691672402,
-                "damageTakenOnTeamPercentage": 0.16480225559623743,
-                "teamDamagePercentage": 0.20898066311942304,
-                "winrate": 0.5175498967653132,
+                "assists": 27.46423658872077,
+                "kills": 11.006189821182943,
+                "deathsByEnemyChamps": 10.594910591471802,
+                "totalDamageDealt": 80374.49724896836,
+                "totalDamageDealtToChampions": 33951.856946354885,
+                "totalDamageTaken": 27826.164374140302,
+                "totalMinionsKilled": 51.45667125171939,
+                "longestTimeSpentLiving": 205.2379642365887,
+                "damageDealtToBuildings": 1471.4511691884456,
+                "effectiveHealAndShielding": 692.5103736389455,
+                "skillshotsDodged": 52.45323246217332,
+                "damageTakenOnTeamPercentage": 0.16487747318476506,
+                "teamDamagePercentage": 0.20900107871420462,
+                "winrate": 0.5178817056396149,
                 "wins": 0,
                 "losses": 0
             },
@@ -3624,7 +3624,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 41,
                 "losses": 56,
                 "assists": 24.257731958762886,
@@ -3881,27 +3881,27 @@
                 ]
             },
             "PartyBJ000": {
-                "wins": 35,
+                "wins": 36,
                 "losses": 47,
-                "assists": 26.902439024390244,
-                "kills": 10.707317073170731,
-                "deathsByEnemyChamps": 11.390243902439025,
-                "totalDamageDealt": 65639.68292682926,
-                "totalDamageDealtToChampions": 31505.914634146342,
-                "totalDamageTaken": 32241.560975609755,
-                "totalMinionsKilled": 39.30487804878049,
-                "longestTimeSpentLiving": 186.03658536585365,
-                "damageDealtToBuildings": 1500.0487804878048,
-                "effectiveHealAndShielding": 964.2545605171017,
-                "skillshotsDodged": 66.8780487804878,
-                "damageTakenOnTeamPercentage": 0.1954668341956483,
-                "teamDamagePercentage": 0.20956985219527755,
-                "winrate": 0.4268292682926829,
+                "assists": 26.96385542168675,
+                "kills": 10.72289156626506,
+                "deathsByEnemyChamps": 11.397590361445783,
+                "totalDamageDealt": 65459.98795180723,
+                "totalDamageDealtToChampions": 31545.21686746988,
+                "totalDamageTaken": 32299.78313253012,
+                "totalMinionsKilled": 39.06024096385542,
+                "longestTimeSpentLiving": 186.51807228915663,
+                "damageDealtToBuildings": 1518.9277108433735,
+                "effectiveHealAndShielding": 952.6370356915945,
+                "skillshotsDodged": 68.96385542168674,
+                "damageTakenOnTeamPercentage": 0.196415048594682,
+                "teamDamagePercentage": 0.20992039539692298,
+                "winrate": 0.43373493975903615,
                 "largestMultiKill": [
                     0,
                     18,
                     43,
-                    16,
+                    17,
                     4,
                     1
                 ],
@@ -3909,7 +3909,7 @@
                     8,
                     0,
                     23,
-                    28,
+                    29,
                     9,
                     9,
                     4,
@@ -4075,7 +4075,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 78,
                 "losses": 63,
                 "assists": 25.80141843971631,
@@ -4271,22 +4271,22 @@
                 ]
             },
             "averages": {
-                "winsX": 752,
+                "winsX": 753,
                 "lossesX": 701,
-                "assists": 27.46111493461803,
-                "kills": 11.005505849965589,
-                "deathsByEnemyChamps": 10.593943565037852,
-                "totalDamageDealt": 80394.90295939436,
-                "totalDamageDealtToChampions": 33951.29525120441,
-                "totalDamageTaken": 27819.7997247075,
-                "totalMinionsKilled": 51.47900894700619,
-                "longestTimeSpentLiving": 205.22367515485203,
-                "damageDealtToBuildings": 1470.3530626290433,
-                "effectiveHealAndShielding": 692.9869809160541,
-                "skillshotsDodged": 52.32415691672402,
-                "damageTakenOnTeamPercentage": 0.16480225559623743,
-                "teamDamagePercentage": 0.20898066311942304,
-                "winrate": 0.5175498967653132,
+                "assists": 27.46423658872077,
+                "kills": 11.006189821182943,
+                "deathsByEnemyChamps": 10.594910591471802,
+                "totalDamageDealt": 80374.49724896836,
+                "totalDamageDealtToChampions": 33951.856946354885,
+                "totalDamageTaken": 27826.164374140302,
+                "totalMinionsKilled": 51.45667125171939,
+                "longestTimeSpentLiving": 205.2379642365887,
+                "damageDealtToBuildings": 1471.4511691884456,
+                "effectiveHealAndShielding": 692.5103736389455,
+                "skillshotsDodged": 52.45323246217332,
+                "damageTakenOnTeamPercentage": 0.16487747318476506,
+                "teamDamagePercentage": 0.20900107871420462,
+                "winrate": 0.5178817056396149,
                 "wins": 0,
                 "losses": 0
             }
@@ -4526,7 +4526,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 1,
                 "losses": 5,
                 "assists": 16.833333333333332,
@@ -4977,7 +4977,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 5,
                 "losses": 2,
                 "assists": 40.142857142857146,
@@ -5428,7 +5428,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 35,
                 "losses": 17,
                 "assists": 30.692307692307693,
@@ -5879,7 +5879,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 22,
                 "losses": 27,
                 "assists": 25.428571428571427,
@@ -6330,7 +6330,7 @@
                     0
                 ]
             },
-            "G2 FischbrÃƒÂ¶tchenEUW": {
+            "G2 FischbrÃ¶tchenEUW": {
                 "wins": 6,
                 "losses": 8,
                 "assists": 20.285714285714285,
@@ -6568,22 +6568,22 @@
                 "losses": 0
             },
             "PartyBJ000": {
-                "winsX": 339,
+                "winsX": 340,
                 "lossesX": 310,
-                "assists": 27.006163328197225,
-                "kills": 11.785824345146379,
-                "deathsByEnemyChamps": 11.651771956856702,
-                "totalDamageDealt": 65631.67642526964,
-                "totalDamageDealtToChampions": 32040.36055469954,
-                "totalDamageTaken": 42692.10015408321,
-                "totalMinionsKilled": 36.335901386748844,
-                "longestTimeSpentLiving": 172.74114021571648,
-                "damageDealtToBuildings": 1701.6348228043144,
-                "effectiveHealAndShielding": 1015.2735336286078,
-                "skillshotsDodged": 78.06163328197226,
-                "damageTakenOnTeamPercentage": 0.25046829797441084,
-                "teamDamagePercentage": 0.20556447758350366,
-                "winrate": 0.522342064714946,
+                "assists": 27.013846153846153,
+                "kills": 11.786153846153846,
+                "deathsByEnemyChamps": 11.652307692307692,
+                "totalDamageDealt": 65608.74307692307,
+                "totalDamageDealtToChampions": 32044.55692307692,
+                "totalDamageTaken": 42683.45692307693,
+                "totalMinionsKilled": 36.30923076923077,
+                "longestTimeSpentLiving": 172.8230769230769,
+                "damageDealtToBuildings": 1703.7353846153846,
+                "effectiveHealAndShielding": 1013.7115743461022,
+                "skillshotsDodged": 78.31076923076922,
+                "damageTakenOnTeamPercentage": 0.25050476002262784,
+                "teamDamagePercentage": 0.20561540136865494,
+                "winrate": 0.5230769230769231,
                 "wins": 0,
                 "losses": 0
             },
